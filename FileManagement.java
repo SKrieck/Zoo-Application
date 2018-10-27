@@ -13,7 +13,7 @@ public class FileManagement {
     // Prints type of animals menu
     void animalsFile() throws IOException {
         // Opens the file animals
-        File file = new File("\\\\apporto.com\\dfs\\Users\\suzanne.kriec_snhu\\Desktop", "animals.txt");
+        File file = new File("D:\\Classes\\App Development\\Code\\MonitoringSystem\\textfiles", "animals.txt");
         Scanner scanner = new Scanner(file);
         // This number will be printed infront of the menu selection
         int number = 1;
@@ -41,7 +41,7 @@ public class FileManagement {
         // Makes a scanner for user input
         Scanner animalSelection = new Scanner(System.in);
         // Opens the file animals
-        File file = new File("\\\\apporto.com\\dfs\\Users\\suzanne.kriec_snhu\\Desktop", "animals.txt");
+        File file = new File("D:\\Classes\\App Development\\Code\\MonitoringSystem\\textfiles", "animals.txt");
         // Initiates a new scanner for the file to be read
         Scanner scanner = new Scanner(file);
         // Initiates the warning box class
@@ -190,7 +190,7 @@ public class FileManagement {
     // Prints type of habitats menu
     void habitatsFile() throws IOException {
         // Opens the file habitats
-        File file = new File("\\\\apporto.com\\dfs\\Users\\suzanne.kriec_snhu\\Desktop", "habitats.txt");
+        File file = new File("D:\\Classes\\App Development\\Code\\MonitoringSystem\\textfiles", "habitats.txt");
         Scanner scanner = new Scanner(file);
         // This number will be printed infront of the menu selection
         int number = 1;
@@ -217,7 +217,7 @@ public class FileManagement {
         // Makes a scanner for user input
         Scanner habitatsSelection = new Scanner(System.in);
         // Opens the file habitats
-        File file = new File("\\\\apporto.com\\dfs\\Users\\suzanne.kriec_snhu\\Desktop", "habitats.txt");
+        File file = new File("D:\\Classes\\App Development\\Code\\MonitoringSystem\\textfiles", "habitats.txt");
         // Initiates a new scanner for the file to be read
         Scanner scanner = new Scanner(file);
         // Initiates the warning box class
@@ -319,4 +319,4 @@ public class FileManagement {
         // makes a new line and seperates 
         System.out.println("");
     } // End habitatsInfoFile method
-} // End of file
+} // End of class
